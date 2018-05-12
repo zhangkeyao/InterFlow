@@ -1,0 +1,6 @@
+curl -d '{"switch": "00:00:00:00:00:00:00:01", "name":"flow-mod-1", "cookie":"0", "priority":"32768", "eth_type":"0x0800", "ipv4_dst":"11.11.11.2","active":"true", "actions":"set_eth_dst=00:00:00:00:00:01,output=3"}' http://101.6.30.182:8080/wm/staticflowpusher/json
+curl -d '{"switch": "00:00:00:00:00:00:00:02", "name":"flow-mod-2", "cookie":"0", "priority":"32768", "eth_type":"0x0800", "ipv4_dst":"22.22.22.2","active":"true", "actions":"set_eth_dst=00:00:00:00:00:02,output=3"}' http://101.6.30.183:8080/wm/staticflowpusher/json
+curl -d '{"switch": "00:00:00:00:00:00:00:03", "name":"flow-mod-3", "cookie":"0", "priority":"32768", "eth_type":"0x0800", "ipv4_dst":"33.33.33.2","active":"true", "actions":"set_eth_dst=00:00:00:00:00:03,output=3"}' http://101.6.30.184:8080/wm/staticflowpusher/json
+curl -d '{"switch": "00:00:00:00:00:00:00:04", "name":"flow-mod-4", "cookie":"0", "priority":"32768", "eth_type":"0x0800", "ipv4_dst":"44.44.44.2","active":"true", "actions":"set_eth_dst=00:00:00:00:00:04,output=3"}' http://101.6.30.185:8080/wm/staticflowpusher/json
+curl -d '{"switch": "00:00:00:00:00:00:00:05", "name":"flow-mod-5", "cookie":"0", "priority":"32768", "eth_type":"0x0800", "ipv4_dst":"55.55.55.2","active":"true", "actions":"set_eth_dst=00:00:00:00:00:05,output=3"}' http://101.6.30.186:8080/wm/staticflowpusher/json
+
